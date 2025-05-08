@@ -1,62 +1,111 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Helvetica', sans-serif;
-  }
-  
-  body {
-    background-color: white;
-  }
-  
-  
-  .container {
-    
-    justify-content: center;
-    align-items: center;
-    margin: 200px;
-    background-color: rgb(139, 180, 199);
-    border-radius: 20px;
-  }
-  
-  .card {
-    background-color: white;
-    border-radius: 16px;
-    padding: 1.5rem;
-    text-align: center;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    max-width: 400px;
-    margin-left: 40px;
-    margin-right: 700px;
-    height: 20%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+}
 
-  }
-  
-  .qr-image {
-    width: 100%;
-    border-radius: 12px;
-    margin-bottom: 1rem;
-    margin-right: 200px;
-  }
-  
-  h1 {
-    font-size: 1.2rem;
-    margin-bottom: 0.75rem;
-    color: hsl(218, 44%, 22%);
-  }
-  
-  #p {
-    font-size: 0.875rem;
-    color: hsl(220, 15%, 55%);
-  }
-.attribution{
-    background-color: rgb(245, 245, 221);
-    margin-left: 200px;
-    position: absolute;
+body {
+  background-color: white;
+}
 
-}  
+.container {
+  /* Removed flex and grid properties */
+  margin: 200px;
+  background-color: rgb(139, 180, 199);
+  border-radius: 20px;
+}
 
-#p1{
-    margin-top: 0px; 
-    width: 1px;
+.card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin-left: 40px;
+  margin-right: 700px;
+  height: 20%;
+}
+
+.qr-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  margin-right: 200px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: hsl(218, 44%, 22%);
+}
+
+#p {
+  font-size: 0.875rem;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  background-color: rgb(245, 245, 221);
+  margin-left: 200px;
+  position: absolute;
+}
+
+#p1 {
+  margin-top: 0px; 
+  width: 1px;
+}
+ 
+
+body {
+  background-color: white;
+}
+
+.container {
+  /* Removed flex and grid properties */
+  margin: 200px;
+  background-color: rgb(139, 180, 199);
+  border-radius: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin-left: 40px;
+  margin-right: 700px;
+  height: 20%;
+}
+
+.qr-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  margin-right: 200px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: hsl(218, 44%, 22%);
+}
+
+#p {
+  font-size: 0.875rem;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  background-color: rgb(245, 245, 221);
+  margin-left: 200px;
+  position: absolute;
+}
+
+#p1 {
+  margin-top: 0px; 
+  width: 1px;
 }
