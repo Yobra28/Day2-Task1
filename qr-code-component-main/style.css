@@ -10,7 +10,6 @@ body {
 }
 
 .container {
-  /* Removed flex and grid properties */
   margin: 200px;
   background-color: rgb(139, 180, 199);
   border-radius: 20px;
@@ -63,7 +62,6 @@ body {
 }
 
 .container {
-  /* Removed flex and grid properties */
   margin: 200px;
   background-color: rgb(139, 180, 199);
   border-radius: 20px;
